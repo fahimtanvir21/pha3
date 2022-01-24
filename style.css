@@ -1,0 +1,134 @@
+
+.carousel-1 {
+    background-image: url("https://images.pexels.com/photos/3566191/pexels-photo-3566191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    width: 100%;
+    height: 100vh;
+}
+.inside-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.carousel-2 {
+    background-image: url("https://images.pexels.com/photos/237898/pexels-photo-237898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    width: 100%;
+    height: 100vh;
+}
+.carousel-3 {
+    background-image: url("https://images.pexels.com/photos/1190299/pexels-photo-1190299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    width: 100%;
+    height: 100vh;
+}
+.carousel-title {
+    font-size: 5.5rem;
+    color: white;
+}
+
+
+    #featured{
+        margin-top: 100px;
+        img {
+          height: 100%;
+          width: 98%;
+          object-fit: cover;
+        }
+        
+        
+    }
+
+
+    .pricing-box {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+    }
+    .pricing-box-all {
+        padding: 30px;
+        border-radius: 30px;
+    }
+    .third-special {
+        background-color: #3f87f5;
+    }
+    .pricing-box-all:hover {
+        background-color: #f4e7eb;
+        color: black;
+    }
+    .badge-hot {
+        position: relative;
+        bottom: 100px;
+        float: right;
+    }
+    .faq-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    .footer-main {
+        width: 100%;
+        height: 30vh;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        background-color: black;
+        color: white;
+    }
+    .main-footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    @media only screen and (max-width: 480px) {
+        .carousel-title {
+            font-size: 2rem;
+            color: white;
+        }
+        .pricing-box {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+        }
+        .badge-hot {
+            margin-top: 15px;
+        }
+        .grid-second {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .second-section-title {
+            margin-top: 100px;
+        }
+        .package-title {
+            margin-bottom: 100px;
+        }
+        .faq-main {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+        }
+        .footer-main {
+            width: 100%;
+            height: 150vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+            margin-top: 100px;
+        }
+        .main-footer {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+        }
+        .app-footer {
+            margin-left: 140px;
+        }
+        .copy {
+            margin-left: 120px;
+        }
+    }
+    
